@@ -1,0 +1,57 @@
+.news {
+    position: relative;
+    display: inline-block;
+}
+.news:hover{
+    background-color: #FBB03B;
+}
+
+.news-botao {
+    color: #000;
+    padding: 27px;
+    cursor: pointer;
+}
+
+.dropdown-news {
+    display: none;
+    position: absolute;
+    background-color: #FBB03B;
+    padding: 30px;
+    padding-bottom: 15px;
+    min-width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.news-botao:hover + .dropdown-news,
+.dropdown-news:hover {
+    display: block;
+}
+
+.dropdown-item-n {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.dropdown-item-n{
+        background-color:#FFF;
+        border-radius:5px;
+        border: 2px solid #000; 
+        padding: 10px;
+        margin-bottom: 20px;
+}
+/* BOTÃO */
+#enviar-news{
+    width: 80px;
+    height: 30px;
+    background: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 55px;
+}
+#enviar-news:hover{
+    background: #FBB03B;
+    border: 2px solid #FFF;
+    color: #FFF;
+}

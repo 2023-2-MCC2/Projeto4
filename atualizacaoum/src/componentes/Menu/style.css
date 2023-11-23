@@ -1,0 +1,24 @@
+.Menu-itens{
+    display: none;
+    position: absolute;
+    background-color: #FBB03B;
+    padding: 30px 80px 15px 30px;
+    min-width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menuImg:hover + .Menu-itens,
+.Menu-itens:hover {
+    display: block;
+}
+
+.item{
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+.item:hover{
+        background-color:#f2f2f2; 
+        padding-left: 5px;
+}

@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#esportesolim {
+  background-color: #FBB03B;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+
+.Botoes-esportes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.titulo-botoes {
+  text-align: center;
+}
+
+.esporte {
+  border-radius: 15px;
+  background-color: #D9D9D9;
+  padding: 10px 20px;
+}

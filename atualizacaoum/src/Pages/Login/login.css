@@ -1,0 +1,50 @@
+#voltar {
+    margin: 10px;
+    color: #747474;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#logoLogin{
+   display: flex;
+   justify-content: center;
+   margin-top: 80px;
+} 
+.loginForm{
+    background-color: #FBB03B;
+    display: grid;
+    place-items: center;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    box-shadow: 5px 6px #747474;
+}
+.formField{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+.loginFormGroup{
+    padding-bottom: 10px;
+} 
+
+.form-error{
+    display: block;
+    color: #ed4337;
+}
+
+.buttonLogin{
+    width: 150px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}  

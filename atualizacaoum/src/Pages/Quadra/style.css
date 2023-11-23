@@ -1,0 +1,50 @@
+.App{
+    background-color: #FFFFFF;
+  }
+  .App-header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+  .Cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  
+  #basquete{
+    background-color: #FBB03B;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #futsal{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #handebol{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #voleibol{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }

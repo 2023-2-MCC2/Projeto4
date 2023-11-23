@@ -1,0 +1,47 @@
+.App{
+    background-color: #FFFFFF;
+  }
+  .App-header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+  .Cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  
+  #aPeso{
+    background-color: #FBB03B;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #corrida{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #LDardo{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #saltoVara{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }

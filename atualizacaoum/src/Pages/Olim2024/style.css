@@ -1,0 +1,21 @@
+.App-header {
+    text-align: center;
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .conteudo{
+    background-color: #FBB03B;
+    margin: px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+  
+  }
+  .olim2024{
+    text-align: justify;
+  }

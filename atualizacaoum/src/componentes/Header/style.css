@@ -1,0 +1,47 @@
+.Topo {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+}
+/* BARRA DE NAVEGAÇÃO */
+#barranavegacao{
+    background-color: #FFF5E6;
+    display: flex;
+    padding-left: 200px; 
+    padding-right: 200px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    max-width: 100%;
+}
+
+/* RESPONSIVIDADE */
+    @media only screen and (max-width: 600px) {
+        .menu-hamb{
+            background-color: #FBB03B;
+            display: flex;
+            flex-direction: row;
+            text-align: right;
+            padding: 10px;
+        }
+        .TopoLogo{
+            align-items: center;
+        }
+        .TopoBarra{
+            display: none;
+        }
+        #barranavegacao {
+            display: none;
+        }
+    }
+    
+    @media only screen and (max-width: 992px) {
+        .menu-hamb{
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 993px) {
+        .menu-hamb{
+            display: none;
+        }
+    }

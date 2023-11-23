@@ -1,0 +1,11 @@
+#bLlivre{
+    background-color: #D9D9D9;
+    padding: 30px 50px;
+    margin-right: 25px;
+    border: none;
+    font-family: 'Jomhuria', serif;
+    font-size: 30px;
+}
+#bLlivre:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

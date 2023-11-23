@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conteudo {
+  background-color: #FBB03B;
+  padding-top: 20px;
+  margin: 20px;
+  border-radius: 15px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.tabelaF1 {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.tabelaF1 tr:hover {
+  background-color: rgb(189, 130, 21);
+  cursor: pointer;
+}
+
+th,
+td {
+  border: 0.5px solid rgb(189, 130, 21);
+  padding: 8px;
+  text-align: center;
+}
+
+.textoF1 {
+  padding: 20px 50px;
+  text-align: justify;
+}
+
+#sobre {
+  text-align: left;
+  padding-left: 50px;
+}

@@ -1,0 +1,65 @@
+.Footer {
+    background-color: black;
+    color: #6F6F6F;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 30px;
+    max-width: 100%;
+}
+
+.linksFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.linkF {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #6F6F6F;
+    text-decoration: none;
+}
+
+.Apoio {
+    padding-top: 10px;
+}
+
+.ONG {
+    padding-left: 35px;
+}
+
+.direitos {
+    font-size: smaller;
+    text-align: center;
+}
+
+/* RESPONSIVIDADE */
+@media only screen and (max-width: 600px) {
+    .Footer{
+        padding: 5px;
+        width: 100%;
+    }
+    .Apoio{
+         display: flex;
+         flex-direction:column;
+    }
+    .ONG{
+        padding: 0px;
+    }
+    .direitos{
+        font-size: xx-small;
+        text-align: center;
+    }
+    .linksFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    #Login{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}

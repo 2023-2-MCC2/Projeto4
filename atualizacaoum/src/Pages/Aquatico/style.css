@@ -1,0 +1,69 @@
+.App{
+    background-color: #FFFFFF;
+  }
+  .App-header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+  .Cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
+  #nSincronizado{
+    background-color: #FBB03B;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  
+  #natacao{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+
+  #polo{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  #vela{
+    background-color: #FBB03B;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 20px 30px;
+    text-align: justify;
+    font-family: 'Inter', serif;
+  }
+  @media only screen and (max-width: 600px) {
+    .App-header{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      margin-left: 5px; 
+    }
+    #nSincronizado{
+      padding: 5px;
+      margin: none;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+  
+  }
+  

@@ -1,0 +1,15 @@
+#botaoProTopo{
+    width: 40px;
+    height: 40px;
+    margin-left: 1100px; 
+    margin-bottom: 10px; 
+    border: none;
+    background-image: url(../../imagens/setafooter.svg);
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    #botaoProTopo{
+     margin-left: 200px;
+    } 
+}

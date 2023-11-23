@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.conteudo {
+  background-color: hsl(37, 96%, 61%);
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+#campeoes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titulo {
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+#titFem {
+  padding-top: 10px;
+  padding-left: 300px;
+}
+
+#titMasc {
+  padding-top: 10px;
+  padding-right: 300px;
+}
+
+#sobreus {
+  text-align: left;
+}
